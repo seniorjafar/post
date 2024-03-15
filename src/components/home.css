@@ -1,0 +1,24 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-container .card {
+  width: calc(25% - 10px); /* Umumiy o'lchamning 25% to'rttasi */
+  margin-bottom: 20px;
+}
+.button-start {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  cursor: pointer;
+}
+.button-start title{
+    background-color: white;
+}
+.modal-right .modal-dialog {
+   margin-left: auto;
+  margin-right: auto;
+  transform: translateX(50%);
+}
